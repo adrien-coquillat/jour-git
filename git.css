@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://images7.alphacoders.com/105/thumb-1920-1053570.jpg)
+}
+
+table {
+    color: white;
+    border: medium solid #000000;
+    width: 100%;
+    font-size: large;
+}
+
+td {
+    border: thin solid #6495ed;
+    width: 40%;
+}
+
+tr {
+    border: thin solid #6495ed;
+    width: 60%;
+
+}
