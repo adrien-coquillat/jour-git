@@ -1,21 +1,38 @@
 body {
-    background-image: url(https://images7.alphacoders.com/105/thumb-1920-1053570.jpg)
+    background-color: #88c1d0;
 }
 
 table {
-    color: white;
-    border: medium solid #000000;
+    table-layout: fixed;
     width: 100%;
-    font-size: large;
+    border-collapse: collapse;
+    border: 3px solid gray
 }
 
+tr,
+th,
 td {
-    border: thin solid #6495ed;
-    width: 40%;
+    padding: 20px;
+    border-collapse: collapse;
+    border: 5px solid #2a0f5c;
+    background-color: #275fa0;
+    font-size: 25px;
+    color: #D0DBEC;
+
 }
 
-tr {
-    border: thin solid #6495ed;
-    width: 60%;
+caption {
+    font-size: 80px;
+    background-color: #88c1d0;
+    color: #14085c
+}
 
+div {
+    float: left;
+    padding-left: 9ch;
+    font-size: 50px;
+}
+
+img {
+    float: right;
 }
